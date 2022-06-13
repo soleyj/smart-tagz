@@ -14,7 +14,7 @@
     "lint:css": "stylelint src/**/*.vue --custom-syntax postcss-html",
     "lint": "eslint src/**/*.vue",
     "lint:all": "yarn lint:css && yarn lint",
-    "prepare": "husky install",
+    
     "snyk": "snyk test"
   },
   "repository": {
