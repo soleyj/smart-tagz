@@ -14,6 +14,7 @@
       <smart-tagz
         input-placeholder="Select Countries ..."
         :on-changed="logResult"
+        :maxlengthInput="10"
       />
     </div>
   </div>
